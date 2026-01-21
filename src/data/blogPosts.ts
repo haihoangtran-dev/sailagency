@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
       'Khi bạn bắt đầu một doanh nghiệp tại Mỹ, việc chọn đúng loại hình doanh nghiệp Mỹ là yếu tố quan trọng để đảm bảo sự thành công lâu dài.',
     content: llcLuaChonLyTuongChoKinhDoanhOnlineTaiMy,
     author: 'Sail Agency',
-    publishDate: '2025-04-10',
+    publishDate: '2025-04-12',
     category: 'LLC tại Mỹ',
     tags: ['LLC', 'Đăng ký doanh nghiệp'],
     readTime: '15 phút đọc',
