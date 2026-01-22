@@ -1,9 +1,6 @@
 export const soSanhStripeVaShopifyPayments = `
 <div class="comparison-container">
     <h1>Phân tích & So sánh: Stripe vs. Shopify Payments</h1>
-    <p>Dựa trên nội dung từ Mageplaza, dưới đây là bảng tổng hợp và phân tích sâu về hai giải pháp thanh toán phổ biến nhất cho nền tảng Shopify.</p>
-
-    <img src="https://images.pexels.com/photos/6203350/pexels-photo-6203350.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Thanh toán trực tuyến" style="width:100%; border-radius: 8px; margin: 20px 0;" />
 
     <h2>1. Tổng quan</h2>
     <ul>
