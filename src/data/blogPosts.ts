@@ -4,9 +4,25 @@ import {
   huongDanDangKyLLCTaiDelaware,
   llcLuaChonLyTuongChoKinhDoanhOnlineTaiMy,
   soSanhStripeVaShopifyPayments,
+  estyDuoiGocNhinDoanhNghiep,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 5,
+    title: "ETSY DƯỚI GÓC NHÌN DOANH NGHIỆP: LÀM CHƠI THÌ DỄ MẤT – LÀM ĐÚNG MỚI ĐI XA",
+    slug: "esty-duoi-goc-nhin-doanh-nghiep",
+    excerpt:
+      "Etsy thường được ví như cánh cửa vàng cho những nhà sáng tạo Việt bước ra thế giới.",
+    content: estyDuoiGocNhinDoanhNghiep,
+    author: "Sail Agency",
+    publishDate: "2026-01-26",
+    category: "Kinh nghiệm kinh doanh",
+    tags: ["LLC", "Kinh nghiệm kinh doanh"],
+    readTime: "15 phút đọc",
+    image:
+      "https://i.postimg.cc/fRg0qM3b/sell-on-etsy.webp",
+  },
   {
     id: 4,
     title: "Chọn Stripe Hay Shopify Payments Cho Cửa Hàng Shopify?",
