@@ -5,9 +5,25 @@ import {
   llcLuaChonLyTuongChoKinhDoanhOnlineTaiMy,
   soSanhStripeVaShopifyPayments,
   estyDuoiGocNhinDoanhNghiep,
+  tomTatForm1099KChoDoanhNghiep,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 6,
+    title: "Tóm Tắt Form 1099-K Cho Doanh Nghiệp",
+    slug: "tom-tat-form-1099-k-cho-doanh-nghiep",
+    excerpt:
+      "Form 1099-K là báo cáo thuế quan trọng cho các doanh nghiệp nhận thanh toán qua nền tảng thương mại điện tử.",
+    content: tomTatForm1099KChoDoanhNghiep,
+    author: "Sail Agency",
+    publishDate: "2026-02-04",
+    category: "Thuế cho LLC",
+    tags: ["LLC", "Thuế", "IRS", "Form 1099-K"],
+    readTime: "10 phút đọc",
+    image:
+      "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+  },
   {
     id: 5,
     title: "ETSY DƯỚI GÓC NHÌN DOANH NGHIỆP: LÀM CHƠI THÌ DỄ MẤT – LÀM ĐÚNG MỚI ĐI XA",
@@ -103,6 +119,7 @@ export const tags: string[] = [
   "Operating Agreement",
   "Registered Agent",
   "IRS",
+  "Form 1099-K",
   "Tax Planning",
   "Business Management",
   "Legal Documents",
