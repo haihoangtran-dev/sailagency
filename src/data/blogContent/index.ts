@@ -5,3 +5,4 @@ export { llcLuaChonLyTuongChoKinhDoanhOnlineTaiMy } from './llc-lua-chon-ly-tuon
 export { soSanhStripeVaShopifyPayments } from './stripe-hay-shopify-payments';
 export { estyDuoiGocNhinDoanhNghiep } from './esty-duoi-goc-nhin-doanh-nghiep';
 export { tomTatForm1099KChoDoanhNghiep } from './tom-tat-form-1099-k-cho-doanh-nghiep';
+export { kinhNghiemSuDungWise } from './kinh-nghiem-su-dung-wise';
