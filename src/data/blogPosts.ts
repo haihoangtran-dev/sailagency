@@ -6,9 +6,25 @@ import {
   soSanhStripeVaShopifyPayments,
   estyDuoiGocNhinDoanhNghiep,
   tomTatForm1099KChoDoanhNghiep,
+  kinhNghiemSuDungWise,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 7,
+    title: "Kinh Nghiệm Sử Dụng Wise Cho Doanh Nghiệp Việt",
+    slug: "kinh-nghiem-su-dung-wise",
+    excerpt:
+      "Một vài kinh nghiệm thực tế khi sử dụng Wise để thanh toán và nhận tiền quốc tế cho doanh nghiệp Việt.",
+    content: kinhNghiemSuDungWise,
+    author: "Sail Agency",
+    publishDate: "2026-02-24",
+    category: "Kinh nghiệm kinh doanh",
+    tags: ["LLC", "Kinh nghiệm kinh doanh"],
+    readTime: "5 phút đọc",
+    image:
+      "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?_gl=1*1dgizm4*_ga*MTk0NjE1MDk0Ni4xNzY2MjIwODk2*_ga_8JE65Q40S6*czE3NzE5NTAyMzkkbzUkZzEkdDE3NzE5NTAzMDIkajU5JGwwJGgw&w=800",
+  },
   {
     id: 6,
     title: "Tóm Tắt Form 1099-K Cho Doanh Nghiệp",

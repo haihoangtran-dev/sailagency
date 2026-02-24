@@ -348,7 +348,7 @@ const BlogPost: React.FC = () => {
       </div>
 
       <div className="container-custom py-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="mx-auto">
           {/* Content */}
           <article className="prose max-w-none">
             {renderContent(post.content)}

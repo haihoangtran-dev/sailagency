@@ -9,7 +9,7 @@ export const tomTatForm1099KChoDoanhNghiep = `
         padding: 0;
     }
     .blog-1099k-container {
-        max-width: 900px;
+        max-width: 1800px;
         margin: 40px auto;
         background: #ffffff;
         padding: 50px;
