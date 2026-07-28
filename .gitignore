@@ -1,2 +1,13 @@
+# Logs & dependencies
 node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
 .env
+.env.*
+
+# macOS system files
+.DS_Store
+*.DS_Store
