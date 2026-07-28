@@ -7,9 +7,25 @@ import {
   estyDuoiGocNhinDoanhNghiep,
   tomTatForm1099KChoDoanhNghiep,
   kinhNghiemSuDungWise,
+  danhGiaNorthwestRegisteredAgent,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 8,
+    title:
+      "Đánh Giá Northwest Registered Agent (2026): Lựa Chọn Tối Ưu Cho Doanh Nghiệp Việt Mở LLC Tại Mỹ",
+    slug: "danh-gia-northwest-registered-agent-2026",
+    excerpt:
+      "Khi bắt đầu hành trình mở công ty LLC tại Mỹ từ Việt Nam, Northwest Registered Agent luôn là thương hiệu được giới kinh doanh Cross-Border đánh giá rất cao. Đánh giá chi tiết ưu/nhược điểm và phương án tối ưu.",
+    content: danhGiaNorthwestRegisteredAgent,
+    author: "Sail Agency",
+    publishDate: "2026-02-28",
+    category: "LLC tại Mỹ",
+    tags: ["LLC", "Registered Agent", "Đăng ký doanh nghiệp"],
+    readTime: "7 phút đọc",
+    image: "/images/blog/Northwest-logo.jpg",
+  },
   {
     id: 7,
     title: "Kinh Nghiệm Sử Dụng Wise Cho Doanh Nghiệp Việt",

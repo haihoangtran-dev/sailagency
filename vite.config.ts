@@ -1,17 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-  // Ensure proper handling of routes during development
   server: {
-    historyApiFallback: true,
+    port: 23000,
+    open: true,
   },
 })
