@@ -8,9 +8,24 @@ import {
   tomTatForm1099KChoDoanhNghiep,
   kinhNghiemSuDungWise,
   danhGiaNorthwestRegisteredAgent,
+  salesTaxPermitKhiBanHangTaiMy,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 9,
+    title: "Hướng Dẫn Toàn Diện Về Sales Tax Permit Khi Bán Hàng Tại Mỹ",
+    slug: "sales-tax-permit-khi-ban-hang-tai-my",
+    excerpt:
+      "Nếu bạn đang vận hành một doanh nghiệp kinh doanh tại thị trường Mỹ, việc nắm rõ Sales Tax Permit là điều bắt buộc để đảm bảo tính tuân thủ pháp lý và tránh các khoản phạt tiền không đáng có.",
+    content: salesTaxPermitKhiBanHangTaiMy,
+    author: "Sail Agency",
+    publishDate: "2026-08-05",
+    category: "Thuế cho LLC",
+    tags: ["Thuế", "Sales Tax", "Đăng ký doanh nghiệp"],
+    readTime: "7 phút đọc",
+    image: "https://images.pexels.com/photos/8872622/pexels-photo-8872622.jpeg?_gl=1*15d42ui*_ga*MTk0NjE1MDk0Ni4xNzY2MjIwODk2*_ga_8JE65Q40S6*czE3ODU5NDg4NTYkbzckZzEkdDE3ODU5NDg5MDQkajEyJGwwJGgw&w=800",
+  },
   {
     id: 8,
     title:
@@ -159,4 +174,5 @@ export const tags: string[] = [
   "Business Services",
   "LLC Setup",
   "Đăng ký doanh nghiệp",
+  "Sales Tax",
 ];
