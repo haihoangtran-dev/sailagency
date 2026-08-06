@@ -65,10 +65,9 @@ export const salesTaxPermitKhiBanHangTaiMy = `
     </tbody>
   </table>
 
-  <h2>4. Chi phí và Thời hạn</h2>
+  <h2>4. Thời hạn hiệu lực của Sales Tax Permit</h2>
   <ul>
-    <li><strong>Chi phí:</strong> Hầu hết các bang tại Mỹ hỗ trợ đăng ký Sales Tax Permit miễn phí. Một số ít bang thu phí nhỏ dao động từ 10 USD – 50 USD/lần.</li>
-    <li><strong>Thời hạn:</strong> Đa số giấy phép có hiệu lực vĩnh viễn trừ khi doanh nghiệp thay đổi tên, cấu trúc sở hữu hoặc địa chỉ. Một số ít bang yêu cầu thực hiện gia hạn hàng năm.</li>
+    <li>Đa số giấy phép có hiệu lực vĩnh viễn trừ khi doanh nghiệp thay đổi tên, cấu trúc sở hữu hoặc địa chỉ. Một số ít bang yêu cầu thực hiện gia hạn hàng năm.</li>
   </ul>
 
   <h2>5. Quy trình 4 bước đăng ký và vận hành</h2>
