@@ -8,3 +8,5 @@ export { tomTatForm1099KChoDoanhNghiep } from './tom-tat-form-1099-k-cho-doanh-n
 export { kinhNghiemSuDungWise } from './kinh-nghiem-su-dung-wise';
 export { danhGiaNorthwestRegisteredAgent } from './danh-gia-northwest-registered-agent';
 export { salesTaxPermitKhiBanHangTaiMy } from './sales-tax-permit-khi-ban-hang-tai-my';
+export { registeredAgentLaGi } from './registered-agent-la-gi';
+export { huongDanSuDungPayoneer } from './huong-dan-su-dung-payoneer';

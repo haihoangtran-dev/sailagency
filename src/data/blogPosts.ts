@@ -9,9 +9,39 @@ import {
   kinhNghiemSuDungWise,
   danhGiaNorthwestRegisteredAgent,
   salesTaxPermitKhiBanHangTaiMy,
+  registeredAgentLaGi,
+  huongDanSuDungPayoneer,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 11,
+    title: "Hướng Dẫn Sử Dụng Payoneer Dành Cho Người Mới Bắt Đầu (Cập Nhật 2026)",
+    slug: "huong-dan-su-dung-payoneer-danh-cho-nguoi-moi-bat-dau",
+    excerpt:
+      "Bạn vừa tạo tài khoản Payoneer nhưng chưa biết bắt đầu từ đâu? Hướng dẫn chi tiết cách sử dụng 4 tính năng cốt lõi: Yêu cầu thanh toán, chuyển tiền nội bộ, rút tiền về ngân hàng Việt Nam và tra cứu biểu phí.",
+    content: huongDanSuDungPayoneer,
+    author: "Sail Agency",
+    publishDate: "2026-08-15",
+    category: "Kinh nghiệm kinh doanh",
+    tags: ["Payoneer", "Kinh nghiệm kinh doanh", "Thanh toán quốc tế"],
+    readTime: "10 phút đọc",
+    image: "https://i.postimg.cc/7PNvDcrH/Huong-dan-Payoneer-Thumbnail-Sailagency.png",
+  },
+  {
+    id: 10,
+    title: "Registered Agent Là Gì? Tại Sao Bắt Buộc Phải Có Khi Thành Lập Công Ty Tại Mỹ?",
+    slug: "registered-agent-la-gi",
+    excerpt:
+      "Khi bắt đầu hành trình kinh doanh tại Mỹ với các loại hình doanh nghiệp như LLC hay Corporation, một trong những yêu cầu pháp lý quan trọng đầu tiên chính là chỉ định một Registered Agent (Đại diện pháp lý đăng ký).",
+    content: registeredAgentLaGi,
+    author: "Sail Agency",
+    publishDate: "2026-08-15",
+    category: "LLC tại Mỹ",
+    tags: ["LLC", "Registered Agent", "Đăng ký doanh nghiệp"],
+    readTime: "8 phút đọc",
+    image: "https://i.postimg.cc/TPkGR4DP/Registered-Agent-Thumbnail-Sailagency.png",
+  },
   {
     id: 9,
     title: "Hướng Dẫn Toàn Diện Về Sales Tax Permit Khi Bán Hàng Tại Mỹ",
@@ -175,4 +205,6 @@ export const tags: string[] = [
   "LLC Setup",
   "Đăng ký doanh nghiệp",
   "Sales Tax",
+  "Payoneer",
+  "Thanh toán quốc tế",
 ];
