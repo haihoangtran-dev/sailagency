@@ -9,9 +9,24 @@ import {
   kinhNghiemSuDungWise,
   danhGiaNorthwestRegisteredAgent,
   salesTaxPermitKhiBanHangTaiMy,
+  registeredAgentLaGi,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 10,
+    title: "Registered Agent Là Gì? Tại Sao Bắt Buộc Phải Có Khi Thành Lập Công Ty Tại Mỹ?",
+    slug: "registered-agent-la-gi",
+    excerpt:
+      "Khi bắt đầu hành trình kinh doanh tại Mỹ với các loại hình doanh nghiệp như LLC hay Corporation, một trong những yêu cầu pháp lý quan trọng đầu tiên chính là chỉ định một Registered Agent (Đại diện pháp lý đăng ký).",
+    content: registeredAgentLaGi,
+    author: "Sail Agency",
+    publishDate: "2026-08-15",
+    category: "LLC tại Mỹ",
+    tags: ["LLC", "Registered Agent", "Đăng ký doanh nghiệp"],
+    readTime: "8 phút đọc",
+    image: "https://i.postimg.cc/TPkGR4DP/Registered-Agent-Thumbnail-Sailagency.png",
+  },
   {
     id: 9,
     title: "Hướng Dẫn Toàn Diện Về Sales Tax Permit Khi Bán Hàng Tại Mỹ",
