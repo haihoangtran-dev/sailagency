@@ -11,9 +11,24 @@ import {
   salesTaxPermitKhiBanHangTaiMy,
   registeredAgentLaGi,
   huongDanSuDungPayoneer,
+  itinVsEinChonMaSoNao,
 } from "./blogContent";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 12,
+    title: "ITIN vs EIN: Chủ Sở Hữu LLC Là Người Nước Ngoài Thực Sự Cần Mã Số Nào?",
+    slug: "itin-vs-ein-chon-ma-so-nao",
+    excerpt:
+      "Khi thành lập LLC tại Mỹ với tư cách nhà đầu tư nước ngoài, điều gì bắt buộc phải có - EIN hay ITIN? Hiểu rõ sự khác biệt giữa hai mã số thuế này, khi nào thực sự cần ITIN và quy trình xin cấp từng loại.",
+    content: itinVsEinChonMaSoNao,
+    author: "Sail Agency",
+    publishDate: "2026-08-19",
+    category: "Thuế cho LLC",
+    tags: ["Thuế", "EIN", "ITIN", "LLC", "Tax Planning"],
+    readTime: "12 phút đọc",
+    image: "https://i.postimg.cc/q7mn6xyk/ITINvs-EIN.png",
+  },
   {
     id: 11,
     title: "Hướng Dẫn Sử Dụng Payoneer Dành Cho Người Mới Bắt Đầu (Cập Nhật 2026)",
